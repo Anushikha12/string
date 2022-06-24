@@ -49,6 +49,14 @@ var String_Match = (S1,S2) =>
      return "NO";
 };
 
+//second method------
+
+ if((S1.localeCompare(S2))===0){
+      return "YES";
+    }
+    else 
+      return "NO";
+
 //string replace
 
 var Replace = (S, pattern , text) => 
